@@ -43,8 +43,17 @@ body{
     gap: 10px;
     align-items: center;
 }
+.navbar__s3 p {
+    cursor: pointer;
+}
 .navbar__s4{
     display: none;
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+}
+.navbar__s4 i{
     cursor: pointer;
 }
 .categories{
@@ -194,6 +203,7 @@ body{
 .course_card img:hover{
     transform: scale(1.2);
 }
+
 @media screen and (max-width:800px) {
     body{
         font-size: 10px;
